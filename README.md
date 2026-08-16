@@ -7,3 +7,13 @@ First of all the Power Query editor was presented. In this application I learned
 Then I got to know about the DAX language, some important function like If(), Switch(), SUMX(), Filter(). Moreover I made different measures, which I could use in the visualisations on the reports.
 
 Last but not least I learned advanced reporting tools for example Bookmarks, Action buttons, Unique tooltips.
+
+-------------------------------------------------------------------------------------------------------------
+Report structure
+
+First page called "Osszesito" (in English 'Summary') is sat as landing page of the report. Its contains all data from every regions.
+The second tab called "Belfold" (in English 'Domestic') and the third one is named "Kulfold" (in English 'International'). The last two pages are used for tooltips only and these are set as hidden.
+
+On the first three pages you can find the main KPIs as Sum Revenue, Sum Expense and Profit. Below it there is a treemap with product categories and their size is depend on their Sum Revenue. The treemap interactions on other visuals are set to filter mode, and not highlight.
+On the left there is a filter icon which connected with a Bookmark, and here are a grey transparent rectangle, because the filter panel has been separated from the other side of the report. The user can filter by paying method or region or customer.
+There are three different visualisation which are showing the total revenue filtered by products, regions, and comparison between domestic and international revenue. Finally there is a matrix table which is showing the revenue, expense and profit by customers
